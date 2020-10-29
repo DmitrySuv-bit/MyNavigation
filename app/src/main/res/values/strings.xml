@@ -3,6 +3,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="home_text">Home</string>
     <string name="next_page_button">Next</string>
+    <string name="next_page3_button">Next page three</string>
     <string name="page_1_text">Страница 1</string>
     <string name="page_2_text">Страница 2</string>
+    <string name="page_3_text">Страница 3</string>
 </resources>

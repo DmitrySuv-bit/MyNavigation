@@ -43,7 +43,10 @@ class OneFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.next_page_one_button)?.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.next_action))
+            Navigation.createNavigateOnClickListener(R.id.action_oneFragment_to_twoFragment))
+
+        view.findViewById<Button>(R.id.next_page_three_button)?.setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.action_oneFragment_to_threeFragment))
     }
 
     companion object {

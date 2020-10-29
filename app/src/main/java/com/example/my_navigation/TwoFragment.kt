@@ -42,8 +42,8 @@ class TwoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<Button>(R.id.next_page_two_button)?.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.next_action))
+        view.findViewById<Button>(R.id.next_page_home_button)?.setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.action_twoFragment_to_homeFragment))
     }
 
     companion object {
